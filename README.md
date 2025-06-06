@@ -188,3 +188,17 @@ Contributors
 * [Nick Reich](http://people.umass.edu/nick/) - Added tips on storing data as text.
 
 
+
+Example dataset and script
+====================
+
+A small example dataset is provided in `data/raw_sample.csv` along with a
+processing script in `scripts/process_data.py`. Running the script converts
+the raw data to tidy format and generates a simple codebook.
+
+```
+python scripts/process_data.py
+```
+
+The tidy data will be saved as `data/tidy_sample.csv` and the codebook as
+`data/codebook.md`.
